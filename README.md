@@ -2,7 +2,7 @@
 
 This project builds on the super effort of [@slava](https://github.com/Slava) and [@stubailo](https://github.com/stubailo) in producing pluggable meteor 'accounts' packages that can use other supported databases for the account information storage. Their initial work was tied to the [postgres support](https://github.com/meteor/postgres-packages/tree/master/packages) in meteor. This  builds on that base and also provided back [contributions](https://github.com/meteor/postgres-packages/pull/18) that we hope helps take the effort of pluggable accounts backends forward.  
 
-This repo implements the pluggable accounts interface for CouchDB using the cloudant:couchdb meteor package and can be consumed by applications. It also provides the simple-todos app that uses these packages. 
+This repo implements the pluggable accounts interface for CouchDB using the [cloudant:couchdb](https://github.com/cloudant/meteor-couchdb) meteor package and can be consumed by applications. It also provides the simple-todos app that uses these packages. 
 
 ## current requirements
 In your app's .meteor/packages file, 'accounts-password-couchdb' needs to come before 'accounts-password'. An example shown below
