@@ -1,11 +1,11 @@
-# Meteor 'accounts' packages that uses CouchDB
+# Meteor 'accounts' packages that use CouchDB
 
-This project builds on the super effort of @slava and @stubailo in producing pluggable meteor 'accounts' packages that can use other supported databases for the account information storage. Their initial work was tied to the [postgres support](https://github.com/meteor/postgres-packages/tree/master/packages) in meteor. This  builds on that base and also provided back contributions that we hope helps take the effort of pluggable accounts backends forward.
+This project builds on the super effort of [@slava](https://github.com/Slava) and [@stubailo](https://github.com/stubailo) in producing pluggable meteor 'accounts' packages that can use other supported databases for the account information storage. Their initial work was tied to the [postgres support](https://github.com/meteor/postgres-packages/tree/master/packages) in meteor. This  builds on that base and also provided back contributions that we hope helps take the effort of pluggable accounts backends forward.  
 
-This repo implements the pluggable accounts interface for CouchDB using the cloudant:couchdb meteor package and can be consumed by applications. It also provides a simple-todos app that uses the packages. 
+This repo implements the pluggable accounts interface for CouchDB using the cloudant:couchdb meteor package and can be consumed by applications. It also provides the simple-todos app that uses these packages. 
 
 ## curent requirements
-In your apps .meteor/packages file, 'accounts-password-couchdb' needs to come before 'accounts-password'. An example shown below
+In your app's .meteor/packages file, 'accounts-password-couchdb' needs to come before 'accounts-password'. An example shown below
 
 ``` 
 # Meteor packages used by this project, one per line.
@@ -20,13 +20,13 @@ accounts-password
 ....
 ```  
 
-## Using the accounts-password-coucdb package with your application
+## Using the accounts-password-couchdb package with your application
 ``` 
 #clone this repo
 git clone https://github.com/mariobriggs/meteor-accounts-couchdb.git
   
 #copy the packages folder to your app
-cp -rf meteor-accounts-couchdb/packages/ <your_app_folder>/
+cp -rf meteor-accounts-couchdb/packages/ <your_app_folder>/packages
 
 # change to your app folder
 cd <your_app_folder>
