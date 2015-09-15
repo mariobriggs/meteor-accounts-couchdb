@@ -50,6 +50,17 @@ AccountsDBClientCouchDB = class AccountsDBClientCouchDB {
     return user;
   }
   
+// format the userID to the datatype used by storage backend
+  // e.g. postgres is using userId as an integer
+  formatUserIdToDbType(userId) {
+    return userId;
+  }
+  
+  //DDP assumes user ids are strings
+  formatUserIdToDdpType(userId) {
+    return userId;
+  }
+  
   // this is a logout
   removeHashedLoginToken(userId, token) {
     // delete from Users the services.resume.loginTokens.token=token

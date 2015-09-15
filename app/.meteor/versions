@@ -16,7 +16,7 @@ caching-compiler@1.0.0-rc.0
 caching-html-compiler@1.0.1-rc.0
 callback-hook@1.0.4-rc.0
 check@1.0.6-rc.0
-cloudant:couchdb@0.0.1
+couchdb@0.0.2-rc.0
 ddp@1.2.1-rc.0
 ddp-client@1.2.1-rc.0
 ddp-common@1.2.1-rc.0

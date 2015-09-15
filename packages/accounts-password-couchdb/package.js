@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.use([
-    'cloudant:couchdb',
+    'couchdb',
     'accounts-base-couchdb',
     'ecmascript'
   ], "server");
