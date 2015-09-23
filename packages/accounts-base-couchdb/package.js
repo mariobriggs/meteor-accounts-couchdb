@@ -11,10 +11,10 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.3');
+  api.versionsFrom('1.2.0.1');
   api.addFiles('accounts-base-couchdb-driver.js');
   api.use([
-    'couchdb',
+    'cloudant:couchdb',
     'ecmascript',
     'check',
     'underscore'

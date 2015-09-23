@@ -12,12 +12,12 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.use([
-    'couchdb',
+    'cloudant:couchdb',
     'accounts-base-couchdb',
     'ecmascript'
   ], "server");
 
-  api.versionsFrom('1.1.0.3');
+  api.versionsFrom('1.2.0.1');
   api.addFiles('accounts-password-couchdb.js', "server");
 });
 

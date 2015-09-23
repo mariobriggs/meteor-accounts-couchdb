@@ -8,4 +8,4 @@ meteor-platform
 accounts-password-couchdb
 accounts-password
 accounts-ui
-couchdb
+cloudant:couchdb
