@@ -24,7 +24,7 @@ accounts-password
 ....
 ```  
 
-### Error  and Success messages to be aware
+### Error  and Success messages to be aware of
 
 If you see this message at startup, it means that accounts-password-couchdb is not defined ahead of other accounts-xxx packages in your .meteor/packages file. Fix it by editing that file.
 
@@ -103,4 +103,4 @@ This repo contains a duplicate copy of the accounts-base and accounts-password p
   
 Look forward to the changes in meteor postgres's accounts and password packages making its way into core meteor accounts and password package, at which time couchdb accounts and password package can be released independently. 
 
-update : Right now our [PullRequst]((https://github.com/meteor/postgres-packages/pull/18)) has been merged, so looks like we are headed in the right direction
+update : Right now our [PullRequest](https://github.com/meteor/postgres-packages/pull/18) has been merged, so looks like we are headed in the right direction
