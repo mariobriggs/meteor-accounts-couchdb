@@ -106,6 +106,6 @@ Look forward to the changes in meteor postgres's accounts and password packages 
 update : Right now our [PullRequest](https://github.com/meteor/postgres-packages/pull/18) has been merged, so looks like we are headed in the right direction
 
 ### Known missing implementation points
-  Does not expose Meteor.users yet. See [this issue](https://github.com/meteor/postgres-packages/issues/40)
-  Things related to 'password reset/email-the-user' are not ported to this interface.
+  Does not expose Meteor.users yet. See [this issue](https://github.com/meteor/postgres-packages/issues/40)  
+  Things related to 'password reset/email-the-user' are not ported to this interface.  
   Use with OAuth packages is not tested
