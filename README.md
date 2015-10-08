@@ -98,9 +98,14 @@ meteor run
 ```  
 
 
-### note
+### Future
 This repo contains a duplicate copy of the accounts-base and accounts-password packages from [ meteor postgres](https://github.com/meteor/postgres-packages/tree/master/packages) for ease of use of the Apache CouchDB consumer (just clone a single repo) at this point in time.  
   
 Look forward to the changes in meteor postgres's accounts and password packages making its way into core meteor accounts and password package, at which time couchdb accounts and password package can be released independently. 
 
 update : Right now our [PullRequest](https://github.com/meteor/postgres-packages/pull/18) has been merged, so looks like we are headed in the right direction
+
+### Known missing implementation points
+  Does not expose Meteor.users yet. See [this issue](https://github.com/meteor/postgres-packages/issues/40)
+  Things related to 'password reset/email-the-user' are not ported to this interface.
+  Use with OAuth packages is not tested
